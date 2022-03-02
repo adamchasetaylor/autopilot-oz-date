@@ -1,0 +1,23 @@
+{
+  "name": "autopilot-validators",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy",
+    "pretty": "prettier --write \"./**/*.{html,js,jsx,json}\""
+  },
+  "dependencies": {
+    "chrono-node": "^2.3.7",
+    "google-closure-library": "^20200719.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-twilio": "^1.31.0",
+    "prettier": "^2.2.1",
+    "twilio-run": "^3.4.1"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
