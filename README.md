@@ -14,13 +14,12 @@ https://www.twilio.com/console/autopilot/list
 This example depends on the "greeting" and "goodbye" tasks being setup in your Autopilot bot.
 
 
-## Validate Times
+## Validate Date
 
-![Screenshot](/images/TimeValidation.png)
+![Screenshot](/images/AEDateValidation.png)
 
-3. Set up the environment variable in your functions environment for TIME_INPUT to the time mask you are expecting (HH:mm is what comes from Twilio.TIME)
 
-4. Update the task "greeting" in your bot
+3. Update the task "greeting" in your bot
 
 https://www.twilio.com/console/autopilot/{YOUR_BOT}/tasks
 
